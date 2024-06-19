@@ -83,6 +83,6 @@ function checkLogin() {
 
     if (!isLoggedIn) {
         // Jika tidak ada status login, redirect ke halaman login
-        window.location.href = '/login.html';
+        window.location.href = 'index.html';
     }
 }
