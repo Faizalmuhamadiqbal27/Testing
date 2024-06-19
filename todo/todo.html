@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/todo/todo.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <ul>
+          <a href="/dash.html">Home</a>
+          <a href="/github/index.html">Github</a>
+          <a href="/todo/todo.html" class="current">Todo</a>
+          <a href="/notes/notes.html">Notes</a>
+        </ul>
+      </div>
+    </nav>
+    <h1>BUAT TO DO LIST
+      <br>kalo kamu pelupa
+    </h1>
+    <form id="form">
+      <input type="text" class="input" id="input" placeholder="Ketik To do anda" autocomplete="off">
+
+      <ul class="todos" id="todos"></ul>
+    </form>
+    <small>Klik Mouse Kiri Untuk Coret To do list<br>Klik Kanan Untuk Menghapus To do list</small>
+
+    <script src="/todo/todo.js"></script>
+  </body>
+</html>

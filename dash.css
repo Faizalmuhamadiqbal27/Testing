@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  position: fixed;
+  background-color: #4e494b;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav.active {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active a {
+  color: #000;
+}
+
+.nav.active .container {
+  padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.hero {
+  background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLx5xnBvQpwFC5-Td3zVV5ppT1LMPbhMeTsQ&s');
+  background-repeat: no-repeat;
+  background-size: auto;
+  backdrop-filter: blur(100px);
+  background-position: bottom center;
+  height: 100vh;
+  color: #050505;
+  font-style: oblique;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: -2;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: -1;
+}
+
+.hero h1 {
+  font-size: 46px;
+  margin: -20px 0 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.content h2,
+.content h3 {
+  font-size: 150%;
+  margin: 20px 0;
+}
+
+.content p {
+  color: #555;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+}
+.container.content {
+    background-color: transparent;
+    display: block;
+  }
+  .container.content h2 {
+      color: #000000;
+      font-weight: 900;
+      font-style: italic;
+      width: 100%;
+  }
+  
+  .container.content p {
+      color: #000000;
+      font-weight: 700;
+      font-style: oblique;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+  }
+  
+  .text-content {
+      width: 70%;
+  }
+  
+  .image-content {
+      width: 30%;
+      background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLkPuucO-MVB-QgtY2B1cOMSJdvOvP1ke9GA&s') no-repeat center center;
+      background-size: contain;
+      height: 100px; /* Sesuaikan tinggi sesuai kebutuhan */
+  }
+  .image-content1 {
+    width: 30%;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtVe4gMCR1w8HvOLU2ibivRuUnJ_qtQCem3g&s') no-repeat center center;
+    background-size: contain;
+    height: 100px; /* Sesuaikan tinggi sesuai kebutuhan */
+}
+.image-content2 {
+    width: 30%;
+    background: url('https://winpoin.com/wp-content/uploads/2016/05/6-cara-membuka-sticky-notes-di-windows-10-1.jpg') no-repeat center center;
+    background-size: contain;
+    height: 100px; /* Sesuaikan tinggi sesuai kebutuhan */
+}
+  
+
+  

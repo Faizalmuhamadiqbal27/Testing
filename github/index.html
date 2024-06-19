@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/github/index.css" />
+    <title>Github Profile</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <ul>
+          <li><a href="/dash.html">Home</a></li>
+          <li><a href="/github/index.html" class="current">Github</a></li>
+          <li><a href="/todo/todo.html">Todo</a></li>
+          <li><a href="/notes/notes.html">Notes</a></li>
+        </ul>
+      </div>
+    </nav>
+      <div class="loading-text">0%</div>
+      <div class="container">
+    <form class="user-form" id="form">
+      <input type="text" id="search" placeholder="Cari Akun Github">
+    </form>
+</div>
+    <main id="main"></main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+    <script src="/github/index.js"></script>
+  </body>
+</html>
